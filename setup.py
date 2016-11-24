@@ -117,6 +117,17 @@ setup(
         'Framework :: Django :: 1.9',
         'License :: OSI Approved :: MIT License',
     ],
+    extras_require={
+        'test': [
+            'flake8',
+            'coverage',
+            'python-coveralls',
+            'moto',
+            'celery==3.1.24',
+            'django-celery==3.1.17',
+            'django-kombu==0.9.4',
+        ],
+    },
     install_requires=[
         'six>1.5.2',
         'boto>2.28',

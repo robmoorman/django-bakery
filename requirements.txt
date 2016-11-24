@@ -1,7 +1,0 @@
-Django
-six
-flake8
-python-coveralls
-django-celery
-Sphinx
-moto

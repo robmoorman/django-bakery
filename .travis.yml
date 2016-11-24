@@ -16,11 +16,7 @@ env:
 
 install:
  # Testing dependencies
- - pip install flake8 coverage python-coveralls moto
- # Required library dependencies
- - pip install boto six
- # Optional library dependencies
- - pip install celery django-celery django-kombu
+ - pip install .[test]
  # The version of Django being tested against
  - pip install -q Django==$DJANGO_VERSION
 
